@@ -3,6 +3,13 @@
     
 }
 
+input, select, textarea {
+    border: none;
+    box-shadow: none;
+    outline: none;
+
+}
+
 header{
  display: flex;
  background-color: black;
@@ -46,7 +53,7 @@ h1, h2, h3 {
     font-family: 'Staatliches', cursive;
 }
 
-label {
+label:[.small]{
     margin-top: 1em;
 
 }
@@ -66,14 +73,18 @@ fieldset {
 
 label[for*="newsletter"],
 label[for*="news"] {
-    width: 90%;
+    width: 95%;
+    margin: auto;
+    padding-left: .5rem;
 
 }
 
 input[type="radio"], 
 input[type="checkbox"] {
     flex-direction: column;
-    width: 10%;
+    width: 5%;
+    border: none;
+    box-shadow: none;
 }
 
 input:not([type="radio"]) or
@@ -94,12 +105,15 @@ option[disabled] {
 footer {
     text-align: center;
     color: rgb(125, 125, 125);
+    padding-bottom: 4rem;
+    padding-top: 1rem;
 
 }
 legend {
    margin-bottom: 0;
    border-top: 2px solid black;
    width: 100%;
+   padding-top: .5em;
 
 }
 
@@ -113,6 +127,7 @@ input, select, textarea{
     background-color: rgb(243, 238, 238) ;
     border-color: rgb(243, 238, 238) ;
     border-radius: 5px;
+    box-shadow: inset 6px 8px 6px -6px #888;
 
 }
 input::placeholder {
@@ -148,6 +163,10 @@ label[for*="interests"]{
     margin-bottom: 1em;
 }
 
+fieldset > p:first-of-type{
+    margin:0;
+
+}
 textarea {
     min-height: 100px;
     width: 100%;
