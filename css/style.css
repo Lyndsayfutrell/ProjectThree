@@ -101,9 +101,9 @@ legend {
 input, select, textarea{
     display: block; 
     width: 100%;
-    margin: 5px 0;
-    padding: 8px; 
-    font-size: 18px;
+    margin: 10px 0px;
+    padding: 14px; 
+    font-size: 16px;
     color: rgb(21, 21, 21);
     background-color: rgb(243, 238, 238) ;
     border-color: rgb(243, 238, 238) ;
