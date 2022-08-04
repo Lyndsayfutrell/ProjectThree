@@ -25,13 +25,13 @@
             <fieldset>
                 <legend><h2>Contact Information</h2></legend>
                 <label for="name">Full Name</label>
-                <input type="text" id="name" name="user-name" placeholder="Required">
+                <input type="text" id="name" name="user-name" placeholder="Required" required>
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="user-email" placeholder="Required">
+                <input type="email" id="email" name="user-email" placeholder="Required" required>
                 <label for="address">Street Address</label>
-                <input type="text" id="address" name="user-address">
+                <input type="text" id="address" name="user-address" placeholder="Type Address Here">
                 <label for="city">City</label>
-                <input type="text" id="city" name="user-city">
+                <input type="text" id="city" name="user-city" placeholder="Type City Here">
                 <label for="state">State</label>
                 <select id="state" name="user-state" placeholder="Choose State">
                     <option disabled selected hidden value="placeholder">Choose State</option>
@@ -88,7 +88,7 @@
                     <option value="WY">Wyoming</option>
                 </select>
                 <label for="zip">Zip Code</label>
-                <input type="text" id="zip" name="user-zip">
+                <input type="text" id="zip" name="user-zip" placeholder="Type Zip Code Here">
             </fieldset>
             <fieldset>
                 <legend><h2>Newsletter</h2></legend>
@@ -108,7 +108,7 @@
                     <label for="news-format1">Plain text</label>
                 </div>
                 <label for="interests">Other topics you'd like to hear about</label>
-                <textarea name="user-interests" id="interests"></textarea>
+                <textarea name="user-interests" id="interests" placeholder="Type topics here"></textarea>
                 <button type="submit">Sign up</button>
             </fieldset>
         </form>
