@@ -1,0 +1,12 @@
+
+h1 {
+
+
+}
+
+option[disabled] { 
+    display: none;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {}
