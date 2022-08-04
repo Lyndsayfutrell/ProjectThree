@@ -1,12 +1,121 @@
+* {
+    box-sizing: border-box;
+    
+}
 
+header{
+ display: flex;
+ background-color: black;
+ color: white;
+ text-align: center;
+ height: 75px;
+ align-content: center;
+ justify-content: center;
+ margin: auto;
+
+
+
+}
 h1 {
+    margin-top: 1rem;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 0;
+
+}
+.newsletter {
+    text-align: center;
+    border-bottom: 3px solid black;
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    
+}
+.light {
+    color:gray;
+}
+h1, h2, h3 {
+
+    font-family: 'Staatliches', cursive;
+}
+
+fieldset {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border:0;
+    border-bottom: ;
 
 
+
+}
+
+.small P {
+    width: 100%;
+
+}
+
+label[for*="newsletter"],
+label[for*="news"] {
+    width: 90%;
+
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    flex-direction: column;
+    width: 10%;
+}
+
+input:not([type="radio"]) or
+input:not([type="checkbox"]){
+    width: 100%;
+}
+
+.small {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 option[disabled] { 
     display: none;
 }
+
+footer {
+    text-align: center;
+
+}
+
+input, select, textarea{
+    display: block; 
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px; 
+    font-size: 18px;
+    color: rgb(21, 21, 21);
+    background-color: rgb(243, 238, 238) ;
+    border-color: rgb(243, 238, 238) ;
+    border-radius: 5px;;
+
+}
+input::placeholder {
+    text-align: right;
+    font-style:italic;
+    font-size: .75em;
+}
+
+#zip {
+    width: 50%;
+}
+
+input:focus, textarea:focus {
+    outline: 3px solid rgb(121, 174, 168);
 
 /* Styles for larger screens */
 @media screen and (min-width: 768px) {}
