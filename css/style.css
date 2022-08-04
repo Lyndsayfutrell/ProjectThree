@@ -46,6 +46,11 @@ h1, h2, h3 {
     font-family: 'Staatliches', cursive;
 }
 
+label {
+    margin-top: 1em;
+
+}
+
 fieldset {
     margin-top: 5px;
     display: flex;
