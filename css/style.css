@@ -21,14 +21,16 @@ h1 {
     padding: 0;
 }
 .container {
-    width: 90%;
+    width: 95%;
     margin: auto;
     padding-top: 0;
 
 }
 .newsletter {
     text-align: center;
-    border-bottom: 3px solid black;
+    border-bottom: 5px solid black;
+    width: 92.5%;
+    margin: auto;
 
 }
 body {
@@ -45,13 +47,10 @@ h1, h2, h3 {
 }
 
 fieldset {
-    margin-top: 1rem;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     border:0;
-    border-bottom: ;
-
-
 
 }
 
@@ -89,6 +88,13 @@ option[disabled] {
 
 footer {
     text-align: center;
+    color: rgb(125, 125, 125);
+
+}
+legend {
+   margin-bottom: 0;
+   border-top: 2px solid black;
+   width: 100%;
 
 }
 
@@ -101,7 +107,7 @@ input, select, textarea{
     color: rgb(21, 21, 21);
     background-color: rgb(243, 238, 238) ;
     border-color: rgb(243, 238, 238) ;
-    border-radius: 5px;;
+    border-radius: 5px;
 
 }
 input::placeholder {
@@ -114,8 +120,33 @@ input::placeholder {
     width: 50%;
 }
 
+button {
+    display: block; 
+    width: 100%;
+    margin: 5px 0;
+    padding: 20px; 
+    font-size: 18px;
+    color: white;
+    background-color: rgb(121, 174, 168) ;
+    border-color: rgb(121, 174, 168) ;
+    border-radius: 5px;
+    margin-top: 1.5em;
+
+}
+
 input:focus, textarea:focus {
     outline: 3px solid rgb(121, 174, 168);
+}  
+
+label[for*="interests"]{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+textarea {
+    min-height: 100px;
+    width: 100%;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 768px) {}
