@@ -36,7 +36,7 @@ h1 {
 .newsletter {
     text-align: center;
     border-bottom: 5px solid black;
-    width: 92.5%;
+    width: 90%;
     margin: auto;
 
 }
@@ -59,10 +59,14 @@ label:[.small]{
 }
 
 fieldset {
+    width: 90%;
+    margin: auto;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
     border:0;
+    padding: 0;
+    
 
 }
 
@@ -176,9 +180,6 @@ textarea {
 @media screen and (min-width: 768px) {
     .container {
         width: 60%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
 
     
     }
@@ -206,8 +207,9 @@ textarea {
             flex-wrap: wrap;
             margin: auto;
             align-items:center;
-
-
         }
 
+        .newsletter {
+            margin-bottom: .25em;
+        }
 }
