@@ -190,14 +190,24 @@ textarea {
     }
 
     input, select { 
-        width: 75%;
+        width: 70%;
     }
     #zip {
         width: 35%;
     }
 
-     label:not(for="interests") {
-        width:20%;
-        margin: 0;
+     fieldset:first-child label:nth-of-type(-1n+7){
+        width:30%;
+      
     }
+
+        fieldset:first-child {
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: auto;
+            align-items:center;
+
+
+        }
+
 }
