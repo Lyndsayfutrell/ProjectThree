@@ -173,4 +173,31 @@ textarea {
 }
 
 /* Styles for larger screens */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 60%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    
+    }
+
+    header {
+    width: 100%;
+    margin: 0;
+
+    }
+
+    input, select { 
+        width: 75%;
+    }
+    #zip {
+        width: 35%;
+    }
+
+     label:not(for="interests") {
+        width:20%;
+        margin: 0;
+    }
+}
