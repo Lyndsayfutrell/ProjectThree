@@ -30,9 +30,19 @@
             <input type="text" id="zip" name="user-zip">
         </fieldset>
         <fieldset>
-            <legend>Newsletter</legend> 
-            <p>Select the newsletters you would like to receive</p>   
-
+            <legend>Newsletter</legend>
+            <p>Select the newsletters you would like to receive</p> 
+            <label for="newsletter1">HTML News</label>
+            <input type="checkbox" id="newsletter1" name="user-newsletter1" value="HTML">
+            <label for="newsletter2">CSS News</label>
+            <input type="checkbox" id="newsletter2" name="user-newsletter2" value="CSS">
+            <label for="newsletter3">Javascript News</label>
+            <input type="checkbox" id="newsletter3" name="user-newsletter3" value="JAVA">
+            <p>Newsletter format</p>
+            <label for="news-format1">HTML</label>
+            <input type="radio" name="user-news-format1" id="news-format1" value="news-format">
+            <label for="news-format1">Plain text</label>
+            <input type="radio" name="user-news-format1" id="news-format1" value="news-format">
             <label for="interests">Other topics you'd like to hear about</label>
             <textarea name="user-interests" id="interests"></textarea>
             <button type="submit">Sign up</button>
