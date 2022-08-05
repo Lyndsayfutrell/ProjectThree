@@ -153,7 +153,7 @@ button {
 
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
     outline: 3px solid rgb(121, 174, 168);
 }  
 
@@ -170,6 +170,7 @@ textarea {
     min-height: 100px;
     width: 100%;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 768px) {
@@ -189,7 +190,7 @@ textarea {
         width: 70%;
     }
     #zip {
-        width: 35%;
+        width: 25%;
     }
 
      fieldset:first-child label:nth-of-type(-1n+7){
