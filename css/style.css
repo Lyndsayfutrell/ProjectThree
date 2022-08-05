@@ -155,6 +155,8 @@ button {
 
 input:focus, textarea:focus, select:focus {
     outline: 3px solid rgb(121, 174, 168);
+    transition: all .5s ease-out;
+    
 }  
 
 label[for*="interests"]{
@@ -170,6 +172,13 @@ textarea {
     min-height: 100px;
     width: 100%;
 }
+
+button:hover {
+    background: rgb(75, 108, 104);
+    border-color: rgb(75, 108, 104);
+    transition: all .5s ease-out;
+ }
+ 
 
 
 /* Styles for larger screens */
